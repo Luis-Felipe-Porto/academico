@@ -1,4 +1,4 @@
-package com.microsservice.academico.escola;
+package com.microsservice.academico.dominio.aluno;
 
 public class Cpf {
     private String numero;
@@ -13,5 +13,9 @@ public class Cpf {
         return numero == null ||
                 numero.
                 matches("([0-9]{2}[\\.]?[0-9]{3}[\\.]?[0-9]{3}[\\/]?[0-9]{4}[-]?[0-9]{2})|([0-9]{3}[\\.]?[0-9]{3}[\\.]?[0-9]{3}[-]?[0-9]{2})\n");
+    }
+
+    public String getNumero() {
+        return numero;
     }
 }

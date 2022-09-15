@@ -1,4 +1,6 @@
-package com.microsservice.academico.escola;
+package com.microsservice.academico.dominio.indicacao;
+
+import com.microsservice.academico.dominio.aluno.Aluno;
 
 import java.time.LocalDateTime;
 

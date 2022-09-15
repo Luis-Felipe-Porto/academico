@@ -1,5 +1,6 @@
-package com.microsservice.academico.escola;
+package com.microsservice.academico.dominio;
 
+import com.microsservice.academico.dominio.aluno.Email;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 

@@ -1,4 +1,4 @@
-package com.microsservice.academico.escola;
+package com.microsservice.academico.dominio.aluno;
 
 public class Telefone {
     private String dd;
@@ -7,5 +7,13 @@ public class Telefone {
     public Telefone(String dd, String numero) {
         this.dd = dd;
         this.numero = numero;
+    }
+
+    public String getDd() {
+        return dd;
+    }
+
+    public String getNumero() {
+        return numero;
     }
 }

@@ -1,4 +1,4 @@
-package com.microsservice.academico.escola;
+package com.microsservice.academico.dominio.aluno;
 
 public class FactoryAluno {
     private Aluno aluno;

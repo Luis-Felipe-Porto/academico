@@ -1,4 +1,4 @@
-package com.microsservice.academico.aplicacao;
+package com.microsservice.academico.aplicacao.indicacao;
 
 import com.microsservice.academico.dominio.aluno.Aluno;
 
